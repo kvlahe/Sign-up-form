@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="left">
+            <img src="/Users/kristoveber/Desktop/TOP/Projects/Sign-up-form/clement-proust-l8BC8IrEqno-unsplash.jpg">
+            <div class="logo-text">
+                <img class="logo-picture" src="/Users/kristoveber/Desktop/TOP/Projects/Sign-up-form/My project-1 (1).png">
+                <span>CASTLE</span>
+            </div>
+        </div>
+        <div class="right">
+        <div class="sign-up-text">
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi! </p>
+            <p>Sign up now to get started.</p>
+            <p class="distanced">You know you want to</p>
+        </div>
+        <form>
+            <p class="form_title">Let's do this!</p>
+            <div class="form_flex">
+            <div class="form_left">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="form_right">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+            <div class="form_left">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form_right">
+                <label for="phone_number">Phone Number</label>
+                <input type="number" id="phone_number" name="phone_number" required>
+            </div>
+            <div class="form_left">
+                <label for="password">Password</label>
+                <input type="password" id='password' name="password" onChange="onChange()" required>
+            </div>
+            <div class="form_right">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" onChange="onChange()" required>
+            </div>
+            </div>
+            <div class="form_submit">
+                <input type="submit" value="Create Account">
+        </div>
+        </form>
+        <p class="login">Already have an account? <a href="">Log in</a></p>
+    </main>
+</body>
+</html>
